@@ -1,0 +1,45 @@
+/* Pause */
+.invite-page {
+    width: 360px;
+    margin-top: 164px;
+    margin-left: 396px;
+}
+.pause {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    color: #252525;
+}
+.invite {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    color: #65686f;
+    margin-top: 15px;
+    text-align: center;
+}
+.invite-page {
+    width: 360px;
+    margin-top: 164px;
+    margin-left: 396px;
+}
+.btn-resume {
+    width: 145px;
+    height: 45px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgba(42, 124, 255, 0.22);
+    background-color: #2a7cff;
+    margin: 31px auto;
+    padding: 13px 40px;
+    transition: background-color .1s linear;
+}
+.btn-resume:hover {
+    background-color: #005df3;
+}
+.resume {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+}

@@ -1,0 +1,53 @@
+.game-description {
+    width: 898px;
+    height: 416px;
+    position: relative;
+    margin-left: 150px;
+    margin-top: 103px;
+}
+.image_cards {
+    display: inline-block;
+    position: relative;
+}
+.memory-game {
+    margin: -375px 0 0 427px;
+}
+.how-to-play {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #252525;
+    display: inline-block;
+}
+.invite {
+    width: 469px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    color: #65686f;
+    margin-top: 20px;
+}
+.to-play {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #252525;
+    margin-top: 40px;
+}
+.game-items {
+    display: inline-block;
+    width: 442px;
+    height: 140px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.game-items li {
+    list-style-type: disc;
+    color: #2a7cff;
+}
+.game-items li span {
+    color: #65686f;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.75;
+    letter-spacing: normal;
+}

@@ -1,0 +1,142 @@
+* {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1280px;
+    height: 800px;
+    width: 100%;
+    position: relative;
+    background-color: #ecf0f3;
+}
+.menu {
+    position: absolute;
+    top: 40px;
+    left: 64px;
+    width: 1152px;
+}
+.new-game {
+    width: 166px;
+    height: 45px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgba(42, 124, 255, 0.22);
+    background-color: #2a7cff;
+    vertical-align: middle;
+    display: inline-block;
+    padding: 13px 39px;
+    transition: background-color .1s linear;
+}
+.new-game:hover {
+    background-color: #005df3;
+}
+.button-game {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+}
+.settings {
+    position: relative;
+    width: 342px;
+    height: 44px;
+    display: inline-block;
+    left: 645px;
+}
+.rating-img {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding: 11px 5px 11px 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+.popup-list {
+    display: inline-block;
+    margin-left: 20px;
+}
+.window-size {
+    width: 195px;
+    height: 44px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+    background-color: #ffffff;
+}
+.window-img {
+    display: inline-block;
+    margin-left: 25px;
+}
+.img-size {
+    width: 44px;
+    height: 44px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+    background-color: #ffffff;
+}
+.game-stuffing {
+    position: absolute;
+    top: 125px;
+    left: 64px;
+    width: 1152px;
+    height: 623px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
+    background-image: linear-gradient(to top, #fcfeff, #ffffff);
+}
+.game-description {
+    width: 898px;
+    height: 416px;
+    position: relative;
+    margin-left: 150px;
+    margin-top: 103px;
+}
+.image_cards {
+    display: inline-block;
+    position: relative;
+}
+.memory-game {
+    margin: -375px 0 0 427px;
+}
+.how-to-play {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #252525;
+    display: inline-block;
+}
+.invite {
+    width: 469px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    color: #65686f;
+    margin-top: 20px;
+}
+.to-play {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #252525;
+    margin-top: 40px;
+}
+.game-items {
+    display: inline-block;
+    width: 442px;
+    height: 140px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.game-items li {
+    list-style-type: disc;
+    color: #2a7cff;
+}
+.game-items li span {
+    color: #65686f;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.75;
+    letter-spacing: normal;
+}

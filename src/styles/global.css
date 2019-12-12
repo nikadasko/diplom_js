@@ -1,0 +1,36 @@
+* {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1152px;
+    width: 100%;
+    background-color: #ecf0f3;
+    margin: 0 auto;
+    position: relative;
+}
+
+.game-stuffing {
+    width: 1152px;
+    height: 623px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
+    background-image: linear-gradient(to top, #fcfeff, #ffffff);
+    overflow: hidden;
+}
+
+main {
+    margin-top: 125px;
+}
+
+body {
+    background-color: #ecf0f3;
+}
+
+input {
+    font-size: 100%;
+}

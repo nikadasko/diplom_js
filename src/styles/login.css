@@ -1,0 +1,57 @@
+/* Your Name */
+.invite-page {
+    width: 360px;
+    padding-top: 164px;
+    margin: 0 auto;
+}
+.your-name {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #252525;
+}
+.invite {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    color: #65686f;
+    margin-top: 20px;
+}
+.input-name {
+    margin-top: 40px;
+    text-align: center;
+}
+.input-name input {
+    width: 320px;
+    height: 44px;
+    border-radius: 5px;
+    border: solid 1px #dddfe4;
+    background-color: #ffffff;
+    text-align: center;
+}
+.btn-start-game {
+    margin: 20px auto;
+    width: 320px;
+    height: 45px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgba(42, 124, 255, 0.22);
+    background-color: #2a7cff;
+    text-align: center;
+    padding: 13px 75px;
+    transition: background-color .1s linear;
+    display: block;
+    border: none;
+    font-size: 100%;
+    cursor: pointer;
+}
+.btn-start-game:hover {
+    background-color: #005df3;
+}
+.btn-start-game-text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+}
+
+

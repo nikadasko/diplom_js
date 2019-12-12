@@ -1,0 +1,76 @@
+/*Card*/
+.game-row {
+    text-align: center;
+}
+
+.timer {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 45px;
+    top: 0;
+    vertical-align: middle;
+    margin-left: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #252525;
+}
+
+.card-selection {
+    position: relative;
+    display: inline-block;
+    width: 130px;
+    height: 200px;
+    margin: 0 5px 16px 5px;
+}
+
+.card-selection.open {
+    opacity: 0 !important;
+}
+
+.card-selection:first-child {
+    margin: 0 5px 16px 0;
+}
+
+.card-selection:last-child {
+    margin: 0 0 16px 5px;
+}
+
+.card-selection img {
+    width: 110px;
+    height: 180px;
+    display: block;
+    line-height: 0;
+}
+
+.card-selection-value,
+.card-selection-back {
+    border: 10px solid #fff;
+    transition-duration: 0.3s;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.15);
+}
+
+.card-selection-value {
+    transform: rotate3d(0, 1, 0, 180deg);
+}
+
+.card-selection-back {
+    transform: rotate3d(0, 1, 0, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.card-selection.selected .card-selection-value {
+    transform: rotate3d(0, 1, 0, 0);
+}
+
+.card-selection.selected .card-selection-back {
+    transform: rotate3d(0, 1, 0, 180deg);
+}

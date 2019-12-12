@@ -1,0 +1,71 @@
+.menu {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.button-new-game {
+    width: 166px;
+    height: 45px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgba(42, 124, 255, 0.22);
+    background-color: #2a7cff;
+    vertical-align: middle;
+    display: inline-block;
+    padding: 13px 39px;
+    transition: background-color .1s linear;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+}
+
+.button-new-game:hover {
+    background-color: #005df3;
+}
+
+.button-game {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    position: relative;
+}
+.settings {
+    position: relative;
+    width: 342px;
+    height: 44px;
+    display: inline-block;
+    left: 645px;
+}
+.rating-img {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding: 11px 5px 11px 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+.popup-list {
+    display: inline-block;
+    margin-left: 20px;
+}
+.window-size {
+    width: 195px;
+    height: 44px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+    background-color: #ffffff;
+}
+.window-img {
+    display: inline-block;
+    margin-left: 15px;
+}
+.img-size {
+    width: 44px;
+    height: 44px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+    background-color: #ffffff;
+}
